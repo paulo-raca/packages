@@ -39,7 +39,7 @@ define Package/gcc
   CATEGORY:=Development
   TITLE:=gcc
   MAINTAINER:=Christian Beier <cb@shoutrlabs.com>
-  DEPENDS:= +binutils +libstdcpp
+  DEPENDS:= +binutils +libstdcpp +libc
 endef
 
 define Package/gcc/description
